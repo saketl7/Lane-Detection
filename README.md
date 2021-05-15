@@ -19,6 +19,7 @@ Lane detection is a critical component of self-driving cars and autonomous vehic
 
 ## Steps
 **1. Perspective transform to rectify binary image ("birds-eye view").**
+
 In Perspective Transformation, we can change the perspective of a given image or video for getting better insights about the required information. In Perspective Transformation, we need provide the points on the image from which want to gather information by changing the perspective. We also need to provide the points inside which we want to display our image. Then, we get the perspective transform from the two given set of points and wrap it with the original image.
 
 **2. Use color transforms, gradients, etc., to create a thresholded binary image.**
