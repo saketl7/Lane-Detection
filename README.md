@@ -9,7 +9,15 @@ We have divided the dataset into 88880 for training set, 9675 for validation set
 OpenCV
 
 ## Introduction
+OpenCV is a cross-platform library using which we can develop real-time computer vision applications. It mainly focuses on image processing, video capture and analysis including features like face detection and object detection.
+
+Computer vision is a process by which we can understand the images and videos how they are stored and how we can manipulate and retrieve data from them.
+
+It plays a major role in real-time operation, one can process images and videos to identify objects, faces, or even handwriting of a human
+
+Lane detection is a critical component of self-driving cars and autonomous vehicles. It is one of the most important research topics for driving scene understanding. Once lane positions are obtained, the vehicle will know where to go and avoid the risk of running into other lanes or getting off the road. This can prevent the driver/car system from drifting off the driving lane.
 
 ## Steps
+
 
 ## Conclusion
