@@ -18,11 +18,18 @@ It plays a major role in real-time operation, one can process images and videos 
 Lane detection is a critical component of self-driving cars and autonomous vehicles. It is one of the most important research topics for driving scene understanding. Once lane positions are obtained, the vehicle will know where to go and avoid the risk of running into other lanes or getting off the road. This can prevent the driver/car system from drifting off the driving lane.
 
 ## Steps
-1. Perspective transform to rectify binary image ("birds-eye view").
-2. Use color transforms, gradients, etc., to create a thresholded binary image.
-3. Detect lane pixels and fit to find the lane boundary.
-6. Determine the curvature of the lane and vehicle position with respect to center.
-4. Warp the detected lane boundaries back onto the original image.
-5. Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+**1. Perspective transform to rectify binary image ("birds-eye view").**
+In Perspective Transformation, we can change the perspective of a given image or video for getting better insights about the required information. In Perspective Transformation, we need provide the points on the image from which want to gather information by changing the perspective. We also need to provide the points inside which we want to display our image. Then, we get the perspective transform from the two given set of points and wrap it with the original image.
+
+**2. Use color transforms, gradients, etc., to create a thresholded binary image.**
+
+**3. Detect lane pixels and fit to find the lane boundary.**
+
+**6. Determine the curvature of the lane and vehicle position with respect to center.**
+
+**4. Warp the detected lane boundaries back onto the original image.**
+
+**5. Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.**
+
 
 ## Conclusion
