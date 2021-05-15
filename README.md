@@ -30,7 +30,6 @@ Lane detection is a critical component of self-driving cars and autonomous vehic
 We can change the perspective of a given image or video for getting better insights about the required information. In Perspective Transformation, we need provide the points on the image from which want to gather information by changing the perspective. We also need to provide the points inside which we want to display our image. Then, we get the perspective transform from the two given set of points and wrap it with the original image.
 
 **Bird's Eye View Transformation**
-
 Parallel lines appear to converge on images from the front facing camera due to perspective. In order to keep parallel lines parallel for photogrammetry a bird’s eye view transformation should be applied.
 
 **HSLV**
