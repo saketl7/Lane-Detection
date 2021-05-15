@@ -34,3 +34,12 @@ In Perspective Transformation, we can change the perspective of a given image or
 
 
 ## Conclusion
+The experimental results show that the algorithm can accurately identify the road lane-line and give the deviated
+information of vehicle and the direction of the curve. 
+
+
+It has great significance to improve the active safety driving
+and assisted driving of the vehicle which is in the curved road conditions. 
+
+Eventhough, lot of progress has been
+attained in the lane detection and tracking area, further improvements can be made as per the requirements.
